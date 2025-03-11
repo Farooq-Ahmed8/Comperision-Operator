@@ -1,33 +1,30 @@
 //Comparision Operator
  
  // >
+document.write('<h3> ', '50 > 20, ', 50 > 20 , '</h3>');
+
  // <
+document.write('<h3> ', '50 < 20, ', 50 < 20 , '</h3>');
+
  // ==
- // === 
+  // == data type check nahi krta
+document.write('<h3> ', '50 == 50, ', 50 == '50' , ' (data type check nahi krta)', '</h3>');
+
+ // ===
+ // === data type check krta ha 
+document.write('<h3> ', '50 === 50, ', 50 === '50' , ' ( === data type check krta )', '</h3>');
+
  // != 
- // !== 
+ // != data type check  krta ha
+document.write('<h3> ', '50 != 50, ', 50 != 50 , ' ( != data type check krta )', '</h3>');
+
+ // !==
+ // !== data type check nahi krta 
+document.write('<h3> ', '50 !== 50, ', 50 !== 50 , ' ( !== data type check nahi krta )', '</h3>');
+
  // >=
+document.write('<h3> ', '20 >= 30, ', 20 >= 30 ,' </h3>');
+
  // <=
- 
- // console.log(50 > 20);
- // console.log(50 < 20);
- // console.log(50 == '50');
- // console.log(50 === 50);
- 
- // console.log(50 !== '50');
- 
- 
- // console.log(20 >= 30);
- // console.log(20 <= 20);
- 
- 
- 
- 
- // == data type check nahi krta
- // === data type check krta ha
- // != data type check nahi krta ==
- // !== data type check  krta ha ===
- 
- 
- // console.log(40 == '40');
+ document.write('<h3> ', '20 <= 20, ', 20 <= 20 ,' </h3>');
  
